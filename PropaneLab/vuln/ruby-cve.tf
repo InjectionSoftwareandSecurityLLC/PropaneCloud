@@ -35,6 +35,6 @@ provisioner "remote-exec" {
 }
 
 
-output "SALTY" {
+output "GEMSTONE" {
   value = aws_instance.gemstone.public_ip
 }
